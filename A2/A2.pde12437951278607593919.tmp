@@ -1,0 +1,12 @@
+Target t;
+
+void setup() {
+  size (600, 600);
+  t = new Target();
+}
+
+void draw() {
+  background(100);
+   t.show();
+   t.act();
+}
